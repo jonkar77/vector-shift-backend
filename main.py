@@ -21,7 +21,7 @@ app.add_middleware(
 
 @app.get('/')
 def read_root():
-    return {'Ping': 'Pong'}
+    return {'ding': 'dong'}
 
 
 # Airtable
